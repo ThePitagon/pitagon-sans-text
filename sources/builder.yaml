@@ -1,0 +1,9 @@
+sources:
+  - PitagonSansText.glyphs
+  - PitagonSansText-Italic.glyphs
+outputDir: "../fonts"
+buildStatic: true
+buildVariable: true
+buildTTF: true
+buildOTF: true
+buildWebfont: true
