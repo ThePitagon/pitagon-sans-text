@@ -58,6 +58,11 @@ Release date: 07 March 2023
 - First public released.
 - Open sourced.
 
+### v1.0.2
+Release date: 08 March 2023
+
+- Add icon characters.
+
 ## Download
 
 [Click here to get the latest release](https://github.com/ThePitagon/pitagon-sans-text/releases/latest)
