@@ -1,18 +1,10 @@
 name: Build font
 
-on:
-  push:
-    branches:
-      - main
-      - 'releases/**'
-  release:
-    branches:
-      - main
-      - 'releases/**'
+on: [ push, release ]
 
 jobs:
   pre_job:
-    # continue-on-error: true
+    continue-on-error: true
     runs-on: ubuntu-latest
     outputs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
@@ -21,7 +13,7 @@ jobs:
         uses: fkirc/skip-duplicate-actions@v5
         with:
           paths_ignore: '["**/**.md", "**/documentation/**", "**/docs/**"]'
-          concurrent_skipping: 'same_content'
+          concurrent_skipping: 'outdated_runs'
           cancel_others: 'true'
   build:
     needs: pre_job
