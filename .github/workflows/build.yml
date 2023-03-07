@@ -13,7 +13,6 @@ jobs:
         uses: fkirc/skip-duplicate-actions@v5
         with:
           paths_ignore: '["**/**.md", "**/documentation/**", "**/docs/**"]'
-          concurrent_skipping: 'same_content_newer'
           cancel_others: 'true'
   build:
     needs: pre_job
