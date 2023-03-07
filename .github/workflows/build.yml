@@ -11,11 +11,10 @@ jobs:
     steps:
       - id: skip_check
         uses: fkirc/skip-duplicate-actions@v5
-        # All of these options are optional, so you can remove them if you are happy with the defaults
-        concurrent_skipping: 'same_content_newer'
-        skip_after_successful_duplicate: 'true'
-        paths_ignore: '["**/**.md", "**/docs/**"]'
-        do_not_skip: '["workflow_dispatch", "schedule"]'
+        with:
+          paths_ignore: '["**/**.md", "**/documentation/**", "**/docs/**"]'
+          concurrent_skipping: 'same_content_newer'
+          cancel_others: 'true'
   build:
     needs: pre_job
     if: needs.pre_job.outputs.should_skip != 'true'
