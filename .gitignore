@@ -178,3 +178,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+venv
+first-run.py
+fonts
+.init.stamp
+.ninja_log
+build.ninja
+build.stamp
