@@ -1,6 +1,14 @@
-name: Build font and specimen
+name: Build font
 
-on: [ push, release ]
+on:
+  push:
+    branches:
+      - main
+      - 'releases/**'
+  release:
+    branches:
+      - main
+      - 'releases/**'
 
 jobs:
   pre_job:
@@ -13,7 +21,6 @@ jobs:
         uses: fkirc/skip-duplicate-actions@v5
         with:
           paths_ignore: '["**/**.md", "**/documentation/**", "**/docs/**"]'
-          concurrent_skipping: 'same_content_newer'
           cancel_others: 'true'
   build:
     needs: pre_job
@@ -78,7 +85,7 @@ jobs:
       zip_name: ${{ env.ZIP_NAME }}
   release:
     # only run if the commit is tagged...
-    if: github.event_name == 'release'
+    if: ${{ github.event_name == 'release' && startsWith(github.event.release.tag_name, 'v') }}
     # ... and it builds successfully
     needs:
       - build
