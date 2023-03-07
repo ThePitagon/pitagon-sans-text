@@ -86,7 +86,7 @@ jobs:
       zip_name: ${{ env.ZIP_NAME }}
   release:
     # only run if the commit is tagged...
-    if: ${{ github.event_name == 'release' && startsWith(github.event.release.tag_name, 'v') }}
+    if: ${{ github.event_name == 'release' }}
     # ... and it builds successfully
     needs:
       - build
