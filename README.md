@@ -1,20 +1,20 @@
 # Pitagon Sans Text
 
-[![][Fontbakery]](https://ThePitagon.github.io/pitagon-sans-text.git/fontbakery/fontbakery-report.html)
-[![][Universal]](https://ThePitagon.github.io/pitagon-sans-text.git/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://ThePitagon.github.io/pitagon-sans-text.git/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://ThePitagon.github.io/pitagon-sans-text.git/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://ThePitagon.github.io/pitagon-sans-text.git/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://ThePitagon.github.io/pitagon-sans-text/fontbakery/fontbakery-report.html)
+[![][Universal]](https://ThePitagon.github.io/pitagon-sans-text/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://ThePitagon.github.io/pitagon-sans-text/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](https://ThePitagon.github.io/pitagon-sans-text/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://ThePitagon.github.io/pitagon-sans-text/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FThePitagon%2Fpitagon-sans-text.git%2Fgh-pages%2Fbadges%2Foverall.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FThePitagon%2Fpitagon-sans-text%2Fgh-pages%2Fbadges%2Foverall.json
 
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FThePitagon%2Fpitagon-sans-text.git%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FThePitagon%2Fpitagon-sans-text%2Fgh-pages%2Fbadges%2FGoogleFonts.json
 
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FThePitagon%2Fpitagon-sans-text.git%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FThePitagon%2Fpitagon-sans-text%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
 
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FThePitagon%2Fpitagon-sans-text.git%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FThePitagon%2Fpitagon-sans-text%2Fgh-pages%2Fbadges%2FShapingChecks.json
 
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FThePitagon%2Fpitagon-sans-text.git%2Fgh-pages%2Fbadges%2FUniversal.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FThePitagon%2Fpitagon-sans-text%2Fgh-pages%2Fbadges%2FUniversal.json
 
 Pitagon Sans Text is a part of the Pitagon font set, which be used in Pi Design System.
 
@@ -48,11 +48,12 @@ If you want to build fonts manually on your own computer:
 * `make proof` will generate HTML proof files.
 
 The proof files and QA tests are also available automatically via GitHub Actions - look
-at https://ThePitagon.github.io/pitagon-sans-text.git
+at https://ThePitagon.github.io/pitagon-sans-text
 
 ## Changelog
 
-**v1.001 | 06 March 2023**
+### v1.0.1
+Release date: 07 March 2023
 
 - First public released.
 - Open sourced.
