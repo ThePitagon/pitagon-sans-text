@@ -48,7 +48,7 @@ If you want to build fonts manually on your own computer:
 * `make proof` will generate HTML proof files.
 
 The proof files and QA tests are also available automatically via GitHub Actions - look
-at https://ThePitagon.github.io/pitagon-sans-text.git.
+at https://ThePitagon.github.io/pitagon-sans-text.git
 
 ## Changelog
 
