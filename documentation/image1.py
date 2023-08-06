@@ -9,7 +9,7 @@ from drawbot_skia.drawbot import *
 from fontTools.ttLib import TTFont
 from fontTools.misc.fixedTools import floatToFixedToStr
 
-# Import moduels from the Python Standard Library: https://docs.python.org/3/library/
+# Import models from the Python Standard Library: https://docs.python.org/3/library/
 import subprocess
 import sys
 import argparse
@@ -108,7 +108,7 @@ def draw_divider_lines():
     stroke(None)
 
 
-# Draw text describing the font and it's git status & repo URL
+# Draw text describing the font, and it's git status & repo URL
 def draw_auxiliary_text():
     # Setup
     font(AUXILIARY_FONT)
