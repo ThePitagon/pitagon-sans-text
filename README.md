@@ -42,13 +42,16 @@ GitHub repository</a>.
 * Be available as a free, open source webfont on any platform.
 * Apply the Pi Design System to the fullest extent.
 * Use metrics similar to common system fonts for smoother progressive enhancement with base unit measurements of 4.
-* Minimize triggers for common human syndromes such as Trypophobia (fear of holes) and Aichmophobia (fear of sharp objects).
-* Avoid using sharp corners for continuous lines. Round off corners on outer edges. Corners at the intersection of lines should not be rounded.
+* Minimize triggers for common human syndromes such as Trypophobia (fear of holes) and Aichmophobia (fear of sharp
+  objects).
+* Avoid using sharp corners for continuous lines. Round off corners on outer edges. Corners at the intersection of lines
+  should not be rounded.
 * Have a broad range of weights and a good italic.
 * All uppercase characters have the same style as lowercase characters.
 * Perform well in subtitle, text, and UI.
 * Have good multilingual support.
-* Encourage continuous improvement — strive to be better, not necessarily perfect. Always "<b><i>BREAKTHROUGH</i></b> the limits".
+* Encourage continuous improvement — strive to be better, not necessarily perfect. Always "<b><i>BREAKTHROUGH</i></b>
+  the limits".
 
 ## How Pitagon Sans Text differs from Plus Jakarta Sans
 
@@ -113,19 +116,6 @@ at https://ThePitagon.github.io/pitagon-sans-text
 
 ## Changelog
 
-### v1.0.1
-
-Release date: 07 March 2023
-
-- First public released.
-- Open sourced.
-
-### v1.0.2
-
-Release date: 08 March 2023
-
-- Add icon characters.
-
 ### v1.1.1
 
 Release date: 06 August 2023
@@ -133,6 +123,19 @@ Release date: 06 August 2023
 - Implement Pi Design System.
 - Add some icon characters.
 - Add Python script that support generating a comparison image of two fonts by overlap same code characters.
+
+### v1.0.2
+
+Release date: 08 March 2023
+
+- Add icon characters.
+
+### v1.0.1
+
+Release date: 07 March 2023
+
+- First public released.
+- Open sourced.
 
 ## Download
 

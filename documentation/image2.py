@@ -22,7 +22,7 @@ from PIL import ImageFont, ImageDraw, Image
 
 # Set the size of the font.
 FONT_SIZE = 500
-FONT_PATH_1 = "sources/release/v1.0.2/ttf/PitagonSansText-Regular.ttf"
+FONT_PATH_1 = "documentation/plus-jakarta-sans/PlusJakartaSans-Regular.ttf"
 FONT_PATH_2 = "fonts/ttf/PitagonSansText-Regular.ttf"
 NUM_CHAR_LINE = 20
 LINE_GAP = 50
